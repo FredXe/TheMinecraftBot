@@ -47,6 +47,8 @@ async def on_ready():
     await bot.tree.sync()
     print(f"|✅|{datetime.datetime.now().strftime('%d/%m/%y %H:%M:%S')}| - bot.tree synced")
 
+    print(f"|✅| All done! :>")
+
 
 
 @bot.event
